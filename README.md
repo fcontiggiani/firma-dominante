@@ -117,31 +117,6 @@ Como π<sub>D</sub>(P) puede no ser cóncava (quiebres de la demanda residual, r
 - Diseño adaptable: en pantallas angostas los controles se apilan sobre los gráficos.
 - El motor matemático (bloque `MATH-START`/`MATH-END`) fue validado en Node.js: dualidad de costos frente a minimización numérica, CMg analítico frente a numérico, oferta individual (P = CMg y maximización de beneficio), CPO IMgᴿ = CMg<sub>D</sub>, regla de Lerner, optimalidad global frente a una grilla de 200 000 precios, PIE como integral sobre la demanda residual, precio límite y libre entrada.
 
-## Publicación en GitHub Pages
-
-1. Crear el repositorio público `firma-dominante` en la cuenta `fcontiggiani`.
-2. *Add file → Upload files*: subir `firma_dominante.html`, `README.md`, `screenshot.png` y `screenshot-oscuro.png` a la raíz de la rama `main`.
-3. *Settings → Pages → Build and deployment*: elegir *Deploy from a branch*, rama `main`, carpeta `/ (root)`.
-4. En uno o dos minutos el simulador queda disponible en:
-
-```
-https://fcontiggiani.github.io/firma-dominante/firma_dominante.html
-```
-
-## Integración en Moodle
-
-- **Recomendado: recurso URL.** *Agregar actividad o recurso → URL*, pegar la dirección anterior y, en *Apariencia*, elegir «Abrir en ventana nueva». Así se evita el filtrado de iframes de algunas instalaciones institucionales.
-- **Alternativa: incrustado.** En una página o etiqueta, con el editor en modo HTML:
-
-```html
-<iframe src="https://fcontiggiani.github.io/firma-dominante/firma_dominante.html"
-        width="100%" height="1400" style="border:0" loading="lazy"></iframe>
-```
-
-## Actualización
-
-Para publicar una nueva versión, volver a subir `firma_dominante.html` con el mismo nombre (*Add file → Upload files*, confirmar en `main`). GitHub Pages actualiza la URL automáticamente; si el navegador conserva la versión anterior, forzar la recarga con Ctrl+F5.
-
 ## Referencias
 
 - Pindyck, R. y Rubinfeld, D. *Microeconomía*, cap. 12 (modelo de la empresa dominante y cárteles).
